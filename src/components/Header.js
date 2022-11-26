@@ -23,7 +23,8 @@ export default function Header() {
     <div style={{boxShadow : '0 0 5px 2px #999', padding : '10px 0'}}>
         <Container>
         <Stack direction='row' alignItems='center' justifyContent='space-between'>
-        <Link to='/'>
+        <Link to='/newCloneBurger'>
+        
         <Typography>Burger Builder</Typography>
         </Link>
         <Stack display = {user ? 'flex' : 'none'} direction='row' justifyContent='space-between' alignItems='center' spacing={1}>
